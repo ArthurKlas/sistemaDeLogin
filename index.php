@@ -46,6 +46,7 @@
                       
                       <div class="form-group">
                           <input type="text" name="nomeUsuario"
+                                 name ="nomeUsuario"
                                  class="form-control"
                                  placeholder="Nome do usuário"
                                  required minlength="5">
@@ -121,6 +122,7 @@
                       <!-- Campo E-mail -->
                       <div class="form-group">
                           <input type="email" name="emailUsuario"
+                                 name="emailUsuario"
                                  class="form-control"
                                  placeholder="E-mail" required>
                       </div>
@@ -128,6 +130,7 @@
                       <!-- Campo Senha -->
                       <div class="form-group">
                           <input type="password" id="senhaUsuario"
+                                 name="senhaUsuario"
                                  class="form-control"
                                  placeholder="Senha" required
                                  minlength="6">
